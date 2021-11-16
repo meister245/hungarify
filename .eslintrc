@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "webextensions": true
+  },
+  "ignorePatterns": ["dist/**/*", "node_modules/**/*"]
+}

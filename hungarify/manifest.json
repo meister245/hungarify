@@ -1,0 +1,23 @@
+{
+  "name": "Hungarify",
+  "description": "Life would be easier without accents.",
+  "author": "Zsolt Mester <hello@zsoltmester.com>",
+  "homepage_url": "https://github.com/meister245/hungarify",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Hungarify"
+  },
+  "permissions": ["activeTab", "contextMenus", "clipboardWrite"],
+  "icons": {
+    "16": "icons/flag16.png",
+    "32": "icons/flag32.png",
+    "48": "icons/flag48.png",
+    "128": "icons/flag128.png"
+  },
+  "web_accessible_resources": ["words.json"]
+}
